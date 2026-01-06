@@ -1,0 +1,134 @@
+/* ===== Global Reset ===== */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+/* ===== Header ===== */
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 15px 40px;
+}
+
+/* Title */
+#my-title h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Menu */
+#main-menu ul {
+    display: flex;
+    gap: 1.9rem;
+    padding: 0;
+    margin: 0;
+}
+
+#main-menu li {
+    list-style: none;
+}
+
+#main-menu a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#main-menu a:hover {
+    color: #F54927;
+}
+
+/* Login button in header */
+#login button {
+    background-color: #F54927;
+    border: none;
+    font-size: 18px;
+    padding: 9px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#login a {
+    color: white;
+    text-decoration: none;
+}
+
+#login button:hover {
+    background-color: #494949;
+}
+
+/* ===== Login Page Layout ===== */
+.page-content {
+    height: calc(100vh - 80px); /* space after header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box */
+#login-container {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#login-container button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-container button:hover {
+    background: #0056b3;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.page-content {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-container{
+    width: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+    
+    
+
+}
