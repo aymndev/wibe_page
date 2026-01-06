@@ -1,0 +1,72 @@
+#container{
+    display:flex;
+    justify-content: space-between;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif; /* khtr font li bghiti, bhal Times New Roman, Verdana, etc. */
+    font-size: 16px;   /* t9der tbdl size */
+    font-weight: normal; /* normal / bold / 100-900 */
+    color: white;      /* color dyal texte */
+}
+
+#main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap:1.9rem;
+    padding-top: 10px;
+}
+h1{
+    padding: 0 0px 20px 100px;
+}
+#login{
+    padding: 18px 80px 0 0;
+    
+}
+#login button{
+    background-color: #F54927;
+    border:none;
+    font-size:20px;
+    padding: 10px;
+    border-radius: 8px;
+    padding: 9px 15px 9px 15px;
+}
+a{
+    color:wheat;
+    text-decoration: none;
+}
+li{
+    list-style-type:none;
+    
+
+}
+#container{
+    background-color: #000000;
+    
+}
+#login button:hover{
+    background-color: #494949;
+}
+li :hover{
+    color:#F54927;
+    
+
+}
+#c-page h1 {
+    color:black;
+    padding-left:100px;
+}
+#c-page p{
+    color:black;
+    padding-left:100px;
+    text-align-last:left;
+}
+
+
+
+
+
